@@ -5,7 +5,7 @@ This guide describes data-file installation, not execution of downloaded code. F
 ## Source and compatibility
 
 - Use only `https://github.com/zoozorocks01/Avatars` and its GitHub raw content for this collection.
-- Read `catalog.json`. Maple is the only installable pet in the initial catalog. A `coming-soon` entry is not an installable package.
+- Read `catalog.json`. Maple and Cosmo Royal have installable prototype entries. A `coming-soon` entry is not an installable package.
 - Confirm the recipient's desktop app supports local custom pets and determine the actual pets directory using its UI/configuration. Prefer **Settings → Pets → Custom pets → Open folder**.
 - The Mac default observed during development is `~/.codex/pets/`; honor `CODEX_HOME` or a user-selected location when applicable. Do not blindly assume this path on another OS.
 - Do not request API keys, passwords or GitHub credentials for this public download. Do not inspect or transmit account settings, environment files or unrelated user data.
@@ -21,12 +21,12 @@ This guide describes data-file installation, not execution of downloaded code. F
 ## Validate and install
 
 1. Parse `pet.json` as data. Require the ID from `manifest.pet_id`, `spriteVersionNumber: 2`, and `spritesheetPath: "spritesheet.webp"`. Require a valid decoded RGBA WebP of **1536 × 2288**, representing **8 × 11** cells of **192 × 208** pixels. Stop if validation fails; do not repair downloads silently.
-2. Maple's stable installed ID and folder are **maple-v2-1**. The version lives in the repository manifest, not in `spriteVersionNumber`; that number describes the file format. Future versions keep this same ID. Do not rename an unrelated older `maple` pet or modify other pets.
+2. Stable installed IDs/folders are **maple-v2-1** for Maple and **cosmo-royal-v1** for Cosmo Royal. Use the selected manifest's `pet_id`. The version lives in the repository manifest, not in `spriteVersionNumber`; that number describes the file format. Future versions keep this same ID. Do not rename an unrelated older `maple` pet or modify other pets.
 3. Compare the two target files with the manifest hashes. If both already match, report **already up to date** without rewriting them.
 4. If the target exists, check for symlinks/unexpected contents and preserve a backup outside the active pets directory. If files differ from any known release, describe possible local customizations and obtain the user's approval before replacing them. Honor any additional confirmation required by the host.
 5. Install only `pet.json` and `spritesheet.webp` into the validated target folder. Stage and verify both before replacement, preserve the old pair together, and use safe atomic replacement where supported. Do not use elevated privileges, recursive deletion, or broad permission changes.
 6. Read back the installed files and verify both hashes. Retain the backup and report the installed version, commit, destination and verification outcome without exposing secrets.
-7. Refresh the custom-pet list, select **Maple V2.1 Prototype**, and show/wake her only when permitted. If app control is blocked, ask the user to perform these steps. Never bypass app-control restrictions by patching settings or databases. Do not restart an app with unsaved work without approval.
+7. Refresh the custom-pet list, select the manifest's **display_name** (**Maple V2.1 Prototype** or **Cosmo Royal**), and show/wake the pet only when permitted. If app control is blocked, ask the user to perform these steps. Never bypass app-control restrictions by patching settings or databases. Do not restart an app with unsaved work without approval.
 
 ## Future updates and rollback
 
@@ -37,4 +37,4 @@ This guide describes data-file installation, not execution of downloaded code. F
 
 ## Report honestly
 
-This release passed atlas/frame validation, ordered-frame visual review, and browser playback checks. That does not establish compatibility with every host version or smoothness on the recipient's machine. Ask the user to check idle, left/right trot, and return-to-standing after activation. Do not claim completion of an unobserved app reload.
+Both prototypes passed atlas/frame validation and ordered-frame visual review. Maple also has browser playback checks. Cosmo 1.1.0 has verified local installation/readback, but timed visual and live-app playback remain unverified. That does not establish compatibility with every host version or smoothness on the recipient's machine. Ask the user to check idle, left/right movement, and return-to-standing after activation; for Cosmo, also check the basketball flip and playbook when triggered. Do not claim completion of an unobserved app reload.

@@ -5,7 +5,7 @@ Small animated companions for desktop apps that support local custom pets.
 | Pet | Version | Status |
 | --- | --- | --- |
 | [Maple](maple/README.md) | 2.1.0 | Downloadable prototype |
-| [Cosmo Royal](cosmo/README.md) | — | Coming later; no release yet |
+| [Cosmo Royal](cosmo/README.md) | 1.1.0 | Downloadable prototype |
 
 ## Get Maple
 
@@ -22,6 +22,14 @@ You can tell your agent:
 > Install Maple from https://github.com/zoozorocks01/Avatars using AGENT-INSTALL.md. Verify the files and preserve a backup of any existing Maple before replacing it. Ask me to select/show the pet if you cannot control the app.
 
 These are pet assets, not standalone applications. The pet itself is a JSON description and a WebP sprite sheet: no executable installer, API key, password, or subscription is included or required by this repository. A compatible host app is required. This is not an official OpenAI repository.
+
+## Get Cosmo Royal
+
+[Download Cosmo Royal V1.1](https://github.com/zoozorocks01/Avatars/raw/refs/heads/main/cosmo/v1.1/Cosmo-Royal-v1.1.0-Prototype.zip) · [Install and update Cosmo](cosmo/README.md)
+
+![Cosmo running](cosmo/v1.1/preview.gif)
+
+Unofficial BYU mascot fan creation. Atlas validation and ordered-frame review passed; live playback of this version remains unverified.
 
 ## Versions and updates
 

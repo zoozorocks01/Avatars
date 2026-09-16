@@ -1,5 +1,7 @@
 # Install or update Maple
 
+For Cosmo Royal, use the [Cosmo installation guide](cosmo/README.md).
+
 Maple is a friendly red-fox prototype. Some movements remain a little stiff.
 
 ## Before you start

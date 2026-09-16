@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "pet": "cosmo",
+  "version": "1.1.0",
+  "status": "prototype",
+  "build": "motion-consistency",
+  "pet_id": "cosmo-royal-v1",
+  "display_name": "Cosmo Royal",
+  "sprite_version_number": 2,
+  "width": 1536,
+  "height": 2288,
+  "files": [
+    {
+      "name": "pet.json",
+      "path": "cosmo/v1.1/pet.json",
+      "sha256": "d7fc05d32bb851621ae57a6e3a8c71d19ca40914c7256f07f2cb36a9e5833c07"
+    },
+    {
+      "name": "spritesheet.webp",
+      "path": "cosmo/v1.1/spritesheet.webp",
+      "sha256": "2dbdf90458483e09419973115bee9301eec3f2a89076c90bf4340c0b8a256987"
+    }
+  ],
+  "archive": {
+    "path": "cosmo/v1.1/Cosmo-Royal-v1.1.0-Prototype.zip",
+    "sha256": "5203b209ff5fd564494efdc0f09328ef01470d3ad175cbc450d7fd2e3fcee338"
+  },
+  "preview": "cosmo/v1.1/preview.gif",
+  "release_notes": "cosmo/v1.1/RELEASE-NOTES.md"
+}

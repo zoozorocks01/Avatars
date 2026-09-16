@@ -10,9 +10,10 @@
     },
     "cosmo": {
       "name": "Cosmo Royal",
-      "version": null,
-      "status": "coming-soon",
-      "manifest": null
+      "version": "1.1.0",
+      "status": "prototype",
+      "manifest": "cosmo/v1.1/manifest.json",
+      "manifest_sha256": "671149cebcc06f7f34d8b3c1bd916f4dbf31f9454d18b1d383058d38e682d9eb"
     }
   }
 }
