@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+node_modules/
+.venv/
+venv/
+__pycache__/
+build/
+dist/
+.cache/
+backups/
+work/
+docs/handoff-*.md

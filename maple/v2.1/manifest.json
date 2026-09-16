@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "pet": "maple",
+  "version": "2.1.0",
+  "status": "prototype",
+  "build": "leg-continuity",
+  "pet_id": "maple-v2-1",
+  "display_name": "Maple V2.1 Prototype",
+  "sprite_version_number": 2,
+  "width": 1536,
+  "height": 2288,
+  "files": [
+    {
+      "name": "pet.json",
+      "path": "maple/v2.1/pet.json",
+      "sha256": "4f8f83c8db86f56980650462b6b51183ede5cbf45a73d7e4767e57170d6267ee"
+    },
+    {
+      "name": "spritesheet.webp",
+      "path": "maple/v2.1/spritesheet.webp",
+      "sha256": "32925cfd8a1c423b593174ae5577f60eefccf7bc20f4ca264ff0dba0face9010"
+    }
+  ],
+  "archive": {
+    "path": "maple/v2.1/Maple-v2.1.0-Prototype.zip",
+    "sha256": "819ac9ee4f9d8a87af64f543608aba4e64a818ad9c7b2abd87b600a992df3637"
+  },
+  "preview": "maple/v2.1/preview.gif",
+  "release_notes": "maple/v2.1/RELEASE-NOTES.md"
+}

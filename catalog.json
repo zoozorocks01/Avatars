@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "pets": {
+    "maple": {
+      "name": "Maple",
+      "version": "2.1.0",
+      "status": "prototype",
+      "manifest": "maple/v2.1/manifest.json",
+      "manifest_sha256": "55b1accceda6146ffee2ab25dc4fe10153ec0a5eb4fdac6c8bcdb86055f06953"
+    },
+    "cosmo": {
+      "name": "Cosmo Royal",
+      "version": null,
+      "status": "coming-soon",
+      "manifest": null
+    }
+  }
+}
