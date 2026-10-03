@@ -31,7 +31,11 @@ These are pet assets, not standalone applications. The pet itself is a JSON desc
 
 Unofficial BYU mascot fan creation. Atlas validation and ordered-frame review passed; live playback of this version remains unverified.
 
-## Versions and updates
+## Work v2 previews — October 2, 2026
+
+New development previews are available for [Cosmo Royal](cosmo/work-v2-preview-2026-10-02/README.md) and [Maple](maple/work-v2-preview-2026-10-02/README.md). Cosmo has a clearer thinking animation; both sheets use the current Work v2 cell layout. These are separate from the installable desktop versions above. Maple still has a failing gaze-geometry check; full quality review and cloud verification are incomplete. Each preview includes animations, validation results, and checksums.
+
+## Desktop versions and updates
 
 Each published version gets its own folder. Published version files are not silently replaced: later changes get a new version and updated catalog entry. The installation folder and pet ID stay stable across updates. Checking this repository does **not** automatically install updates or change application settings.
 

@@ -2,6 +2,8 @@
 
 An unofficial royal-blue Cosmo fan-created desktop pet: athletic gait, basketball backflip, playbook reading, and directional gaze. Version **1.1.0**, downloadable prototype.
 
+A newer [Work v2 development preview](work-v2-preview-2026-10-02/README.md) adds a clearer thinking animation and the current Work cell layout. It is not yet a replacement desktop release.
+
 [Download Cosmo Royal V1.1](https://github.com/zoozorocks01/Avatars/raw/refs/heads/main/cosmo/v1.1/Cosmo-Royal-v1.1.0-Prototype.zip) · [Release notes](v1.1/RELEASE-NOTES.md) · [Checksum manifest](v1.1/manifest.json)
 
 ![Cosmo running](v1.1/preview.gif)

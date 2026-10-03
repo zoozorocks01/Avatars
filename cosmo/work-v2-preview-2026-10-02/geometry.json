@@ -1,0 +1,62 @@
+{
+  "ok": true,
+  "scope": "Jump and look geometry; these rows are pixel-identical to the compatibility source. Not full cloud acceptance.",
+  "jump": {
+    "idle_baseline": 203,
+    "jump_baselines": [
+      202,
+      152,
+      152,
+      168,
+      202
+    ],
+    "airborne_lift_pixels": 50,
+    "landing_delta_pixels": 1
+  },
+  "look_registration": {
+    "neutral_center_x": 95.5,
+    "look_centers_x": [
+      94.5,
+      94.0,
+      94.0,
+      94.0,
+      94.0,
+      94.0,
+      94.0,
+      93.0,
+      93.5,
+      93.5,
+      93.0,
+      93.5,
+      93.5,
+      94.0,
+      93.5,
+      94.0
+    ],
+    "look_widths": [
+      131,
+      130,
+      130,
+      130,
+      130,
+      130,
+      130,
+      130,
+      119,
+      119,
+      118,
+      119,
+      119,
+      120,
+      119,
+      120
+    ],
+    "maximum_center_drift_pixels": 2.5,
+    "maximum_width_ratio": 1.1101694915254237
+  },
+  "errors": [],
+  "warnings": [
+    "157.5->180 diff is a local outlier (2621 pixels vs neighbor average 1511)",
+    "337.5->000 diff is a local outlier (3573 pixels vs neighbor average 1634)"
+  ]
+}

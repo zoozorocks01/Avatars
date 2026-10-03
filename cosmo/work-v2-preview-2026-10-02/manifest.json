@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "pet": "cosmo",
+  "build": "work-v2-preview-2026-10-02",
+  "status": "preview-not-installable-release",
+  "sprite_version_number": 2,
+  "dimensions": [
+    1536,
+    2288
+  ],
+  "required_frames": 73,
+  "unused_transparent_cells": 15,
+  "structural_validation": true,
+  "full_quality_gate_passed": false,
+  "cloud_upload_verified": false,
+  "live_host_playback_verified": false,
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "a2aad81746f0f8d9bdae4e0dab5b9ded101ec4b6bce057a9f43410d15a9c3ebd",
+      "bytes": 2054
+    },
+    {
+      "path": "all-states.gif",
+      "sha256": "20c069b3d3174ad62cdf56aa6c5dec4c671762b24304c56449c3528f2c55d27e",
+      "bytes": 1894574
+    },
+    {
+      "path": "all-states.mp4",
+      "sha256": "b9a1867425db80869fab49e44fcde4e81557e32e1f899bdf616faecc5c2251ed",
+      "bytes": 419979
+    },
+    {
+      "path": "contact.png",
+      "sha256": "8769395969667d3dff88893d021697524ba7fcc0415662fa6654c7fdbe8e5f5d",
+      "bytes": 862590
+    },
+    {
+      "path": "directions.png",
+      "sha256": "14025167d4c48d19b41fd73e7c051f6f1d728f475475e548032b5b040f8c4207",
+      "bytes": 1054721
+    },
+    {
+      "path": "generation-prompt.txt",
+      "sha256": "ee106b364818683a1bf4d899afe36669b610a0e46247813f8468c25b577f2155",
+      "bytes": 1334
+    },
+    {
+      "path": "geometry.json",
+      "sha256": "761b599a2b80c5180b4dba635399408918d43955b222df23a8ffb3c89249f2ea",
+      "bytes": 1101
+    },
+    {
+      "path": "idle-jump-idle.gif",
+      "sha256": "01cf73943a0132ca31d07a3d9f10e2a317f1575e65760589a845ab9e17643ff7",
+      "bytes": 211120
+    },
+    {
+      "path": "idle-work-idle.gif",
+      "sha256": "aff9810bdcccda9a5528e3370efd498554abb94b960058c98cc3a122691a1d06",
+      "bytes": 236710
+    },
+    {
+      "path": "look-loop.gif",
+      "sha256": "cbe57bfa639838e2da38ab27f6483bf25b6ed8ad78b3dbd200fab425c77aaf70",
+      "bytes": 591082
+    },
+    {
+      "path": "spritesheet.webp",
+      "sha256": "19f0fe91b64eb1256bad414fcff8c8d05dd12246effeacbc8384c8506f8f437c",
+      "bytes": 2617366
+    },
+    {
+      "path": "thinking-stills.png",
+      "sha256": "4782af519ce5cc2bc39a1cdc3add962ae94e74c3cc936e80beda1c02c7206d3a",
+      "bytes": 314567
+    },
+    {
+      "path": "validation.json",
+      "sha256": "26ef3be009833f261d82664fb48f6dfd959c021a7aedda3acfb11acbd5cf43a0",
+      "bytes": 18332
+    }
+  ]
+}

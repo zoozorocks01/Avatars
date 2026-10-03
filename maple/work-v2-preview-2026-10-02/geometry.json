@@ -1,0 +1,82 @@
+{
+  "ok": false,
+  "scope": "Geometry only; not full quality or cloud acceptance",
+  "jump": {
+    "idle_baseline": 201,
+    "jump_baselines": [
+      201,
+      201,
+      187,
+      200,
+      202
+    ],
+    "airborne_lift_pixels": 15,
+    "landing_delta_pixels": 1
+  },
+  "look_registration": {
+    "neutral_center_x": 95.5,
+    "look_centers_x": [
+      103.0,
+      102.5,
+      102.5,
+      102.0,
+      102.5,
+      102.0,
+      103.5,
+      103.5,
+      99.5,
+      91.0,
+      91.5,
+      96.0,
+      88.5,
+      92.5,
+      94.0,
+      102.5
+    ],
+    "look_widths": [
+      116,
+      115,
+      115,
+      118,
+      117,
+      118,
+      115,
+      109,
+      123,
+      138,
+      135,
+      130,
+      145,
+      137,
+      134,
+      95
+    ],
+    "maximum_center_drift_pixels": 8.0,
+    "maximum_width_ratio": 1.5263157894736843
+  },
+  "errors": [
+    "look-direction silhouettes change width by 1.53x, expected at most 1.50x"
+  ],
+  "warnings": [
+    "000 has transparent interior hole rows (y=187, y=188, y=189, y=190, +2 more)",
+    "022.5 has transparent interior hole rows (y=187, y=188, y=189, y=190, +2 more)",
+    "045 has transparent interior hole rows (y=187, y=188, y=189, y=190, +2 more)",
+    "067.5 has transparent interior hole rows (y=188, y=189, y=190, y=191, +1 more)",
+    "090 has transparent interior hole rows (y=188, y=189, y=190, y=191, +1 more)",
+    "112.5 has transparent interior hole rows (y=187, y=188, y=189, y=190, +2 more)",
+    "135 has transparent interior hole rows (y=187, y=188, y=189, y=190, +2 more)",
+    "157.5 has transparent interior hole rows (y=188, y=189, y=190, y=191, +1 more)",
+    "180 has transparent interior hole rows (y=190, y=191, y=193, y=194, +1 more)",
+    "202.5 has transparent interior hole rows (y=190, y=191, y=192, y=193, +2 more)",
+    "225 has transparent interior hole rows (y=190, y=191, y=195)",
+    "247.5 has transparent interior hole rows (y=190, y=191, y=193, y=194, +1 more)",
+    "270 has transparent interior hole rows (y=190, y=191, y=193, y=194, +1 more)",
+    "292.5 has transparent interior hole rows (y=190, y=191, y=192, y=193, +1 more)",
+    "315 has transparent interior hole rows (y=190, y=191, y=192, y=193, +2 more)",
+    "157.5->180 diff is a local outlier (5214 pixels vs neighbor average 2902)",
+    "180->202.5 center shift is high (8.7px)",
+    "247.5->270 center shift is high (9.0px)",
+    "315->337.5 diff is a local outlier (7854 pixels vs neighbor average 4445)",
+    "315->337.5 center shift is high (8.9px)"
+  ]
+}
