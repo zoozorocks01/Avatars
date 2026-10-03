@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "changed_cells": [
+    [
+      8,
+      0
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      10,
+      0
+    ],
+    [
+      10,
+      1
+    ],
+    [
+      10,
+      2
+    ],
+    [
+      10,
+      3
+    ],
+    [
+      10,
+      4
+    ],
+    [
+      10,
+      5
+    ],
+    [
+      10,
+      6
+    ],
+    [
+      10,
+      7
+    ]
+  ],
+  "unchanged_required_poses": 59,
+  "source_sha256": "dbe265d49e7b3414190cdd24e99dc734248760a823dece1e8312bb91f229222d",
+  "candidate_sha256": "986b3e05f9bd481600d4cba76f49bd4ac8fdf69e49106a423ff8b68157cd388a",
+  "cleanup_scope": "Only new rows 8 and 10 retained from single cleanup pass; all other rows are original pixels."
+}

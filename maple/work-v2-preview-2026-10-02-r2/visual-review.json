@@ -1,0 +1,15 @@
+{
+  "status": "pass-with-warnings-for-candidate-preview",
+  "independent_review": true,
+  "observations": [
+    "Inspection uses attentive lowered gaze and a questioning head tilt.",
+    "Identity, coat markings, feet, tail, body scale and baseline remain visually consistent.",
+    "Cardinals and clockwise quadrants are coherent; no material clipping or detached tail visible."
+  ],
+  "warnings": [
+    "292.5-degree upward pitch is subtle in isolation but plausible in ordered sequence.",
+    "202.5/225 and 292.5/315 directions are unevenly separated."
+  ],
+  "timed_host_playback_verified": false,
+  "dark_background_check": "Parent inspection found no conspicuous colored fringe after cleanup."
+}

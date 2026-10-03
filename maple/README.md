@@ -4,7 +4,7 @@ A gentle red fox with a storybook look, curious gaze, blink, greeting, trot and 
 
 **Current version: 2.1.0 prototype.** This includes the larger trot and smoother connected-leg artwork.
 
-A newer [Work v2 compatibility preview](work-v2-preview-2026-10-02/README.md) preserves the locally refined trot in the current Work cell layout. Its gaze-geometry check still fails, so it is not a replacement release.
+A newer [Work v2 preview, revision 2](work-v2-preview-2026-10-02-r2/README.md) adds clearer inspection and repaired gaze animation. Local structural and geometry checks pass; it remains a preview pending host testing and cloud verification.
 
 [Download the ZIP](https://github.com/zoozorocks01/Avatars/raw/refs/heads/main/maple/v2.1/Maple-v2.1.0-Prototype.zip) · [Human install guide](../INSTALL.md) · [Agent guide](../AGENT-INSTALL.md) · [Release notes](v2.1/RELEASE-NOTES.md) · [Manifest](v2.1/manifest.json)
 

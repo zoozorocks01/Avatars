@@ -33,7 +33,7 @@ Unofficial BYU mascot fan creation. Atlas validation and ordered-frame review pa
 
 ## Work v2 previews — October 2, 2026
 
-New development previews are available for [Cosmo Royal](cosmo/work-v2-preview-2026-10-02/README.md) and [Maple](maple/work-v2-preview-2026-10-02/README.md). Cosmo has a clearer thinking animation; both sheets use the current Work v2 cell layout. These are separate from the installable desktop versions above. Maple still has a failing gaze-geometry check; full quality review and cloud verification are incomplete. Each preview includes animations, validation results, and checksums.
+New development previews are available for [Cosmo Royal](cosmo/work-v2-preview-2026-10-02/README.md) and [Maple revision 2](maple/work-v2-preview-2026-10-02-r2/README.md). Cosmo has a clearer thinking animation; Maple has clearer inspection and repaired gaze animation. Both sheets pass local structural and geometry checks for the current Work v2 layout. These are separate from the installable desktop versions above; full quality review, live host testing, and cloud verification remain incomplete. Each preview includes animations, validation results, and checksums.
 
 ## Desktop versions and updates
 
